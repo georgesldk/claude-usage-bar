@@ -1,0 +1,18 @@
+# Build output
+build/
+*.app
+
+# Secrets (the app needs none, but never commit these)
+.env
+.env.*
+*.pem
+*.p12
+cookies*.txt
+
+# macOS / editors
+.DS_Store
+.swiftpm/
+*.xcuserstate
+xcuserdata/
+.vscode/
+.idea/
